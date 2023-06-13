@@ -1,0 +1,26 @@
+#include "vulkan/vulkan.hpp"
+#include "GLFW/include/glfw3.h"
+#define GLM_FORCE_RADIANS
+#define GLM_FORCE_DEPTH_ZERO_TO_ONE
+#define GLM_FORCE_LEFT_HANDED
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp"
+#include "imgui/imgui.h"
+#include "imgui/backends/imgui_impl_vulkan.h"
+#include "imgui/backends/imgui_impl_glfw.h"
+
+#include <iostream>
+#include <algorithm>
+#include <set>
+#include <vector>
+#include <memory>
+#include <Windows.h>
+#include <direct.h>
+#include <stdio.h>
+#include <cassert>
+#include <optional>
+#include <fstream>
+#include <cstdlib>
+#include <string>
+#include <filesystem>
+#include <chrono>
